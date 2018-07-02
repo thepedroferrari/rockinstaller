@@ -1,0 +1,2942 @@
+{
+  "software": [
+	  {"name": "Google Chrome",
+      "link": "googlechrome",
+      "description": "Chrome is a fast, simple, and secure web browser, built for the modern web.",
+      "origin": "chocolatey",
+      "category": "browser",
+      "keywords": [
+        "Google",
+        "Chrome",
+        "Web",
+        "Browser",
+        "Admin"
+      ],
+      "profiles": [
+        "Developer",
+        "Gamer",
+        "Basic",
+        "Designer",
+        "System Admin",
+        "Recommended"
+      ],
+      "image": "img/logo/GoogleChrome.53.0.2785.116.svg"
+    }, {"name": "Mozilla Firefox",
+      "link": "firefox",
+      "description": "Bringing together all kinds of awesomeness to make browsing better for you.",
+      "origin": "Chocolatey",
+      "category": "browser",
+      "keywords": [
+        "Firefox",
+        "Mozilla",
+        "Web",
+        "Browser",
+        "Admin"
+      ],
+      "profiles": [
+        "Developer",
+        "Gamer",
+        "Basic",
+        "Designer",
+        "System Admin",
+        "Recommended"
+      ],
+      "image": "img/logo/Firefox.49.0.1.png"
+    }, {"name": "Java SE Runtime Environment",
+      "link": "jre8",
+      "description": "Java allows you to play online games, chat with people around the world, calculate your mortgage interest, and view images in 3D, just to name a few. It's also integral to the intranet applications and other e-business solutions that are the foundation of corporate computing.",
+      "origin": "Chocolatey",
+      "category": "framework",
+      "keywords": [
+        "Java",
+        "Runtime",
+        "Environment"
+      ],
+      "profiles": [
+        "Developer",
+        "Basic",
+        "System Admin"
+      ],
+      "image": "img/logo/jre8.8.0.101.20160917.svg"
+    }, {"name": "Adobe Reader",
+      "link": "adobereader",
+      "description": "Adobe Reader is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.",
+      "origin": "Chocolatey",
+      "category": "text",
+      "keywords": [
+        "PDF",
+        "Adobe",
+        "Reader"
+      ],
+      "profiles": [
+        "Developer",
+        "Basic",
+        "Designer",
+        "System Admin",
+        "Recommended"
+      ],
+      "image": "img/logo/adobereader.2015.007.20033.png"
+    }, {"name": "WinRar",
+      "link": "winrar",
+      "description": "WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+        "Winrar",
+        "Compress",
+        "Compression",
+        "Archive"
+      ],
+      "profiles": [
+        "Developer",
+        "Basic",
+        "Designer",
+        "System Admin",
+        "Recommended"
+      ],
+      "image": "img/logo/winrar.5.40.png"
+    }, {"name": "Node JS",
+      "link": "nodejs.install",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/nodejs.install.6.6.0.png"
+    }, {"name": "7-Zip",
+      "link": "7zip.install",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/7zip.install.16.02.0.20160811.svg"
+    }, {"name": "Notepad++",
+      "link": "notepadplusplus.install",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "text",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/notepadplusplus.install.6.9.2.png"
+    }, {"name": "Java Runtime (JRE)",
+      "link": "javaruntime",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "framework",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/javaruntime.8.0.101.svg"
+    }, {"name": "Git",
+      "link": "git.install",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/git.install.2.10.0.svg"
+    }, {
+      "name": "AutoHotkey",
+      "link": "autohotkey.portable",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/autohotkey.portable.1.1.24.01.png"
+    }, {"name": "CCleaner",
+      "link": "ccleaner",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ccleaner.5.22.5724.png"
+    }, {"name": "VLC",
+      "link": "vlc",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/vlc.2.2.4.png"
+    }, {"name": "Adobe AIR Runtime",
+      "link": "adobeair",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "runtime",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/AdobeAIR.20.0.0.233.png"
+    }, {"name": "Skype",
+      "link": "skype",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/skype.7.28.0.101.png"
+    }, {"name": "FileZilla",
+      "link": "filezilla",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/filezilla.3.21.0.svg"
+    }, {"name": "cURL",
+      "link": "curl",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/curl.7.28.1.png"
+    }, {"name": "Microsoft Visual C++ 2010 ",
+      "link": "vcredist2010",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "framework",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logopackageDefaultIcon-50x50.png"
+    }, {"name": "KeePass Password Safe",
+      "link": "keepass.install",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/keepass.install.2.34.png"
+    }, {"name": "PuTTY",
+      "link": "putty",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/putty.0.67.png"
+    }, {"name": "Process Explorer",
+      "link": "procexp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/procexp.16.12.png"
+    }, {"name": "Mozilla Thunderbird",
+      "link": "thunderbird",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/thunderbird.45.3.0.png"
+    }, {"name": "LibreOffice",
+      "link": "libreoffice",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "documents",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/libreoffice.5.2.1.svg"
+    }, {"name": "ChocolateyGUI",
+      "link": "chocolateygui",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ChocolateyGUI.0.13.2.png"
+    }, {"name": "Ruby",
+      "link": "ruby",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ruby.2.3.0.svg"
+    }, {"name": "PDF Creator",
+      "link": "pdfcreator",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "text",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/PDFCreator.2.3.2.png"
+    }, {"name": "VirtualBox",
+      "link": "virtualbox",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/virtualbox.5.1.4.110229.png"
+    }, {"name": "ConEmu",
+      "link": "conemu",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ConEmu.16.9.14.0.png"
+    }, {"name": "Malwarebytes Anti-Malware",
+      "link": "malwarebytes",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/malwarebytes.2.2.1.1043002.png"
+    }, {"name": "Dropbox",
+      "link": "dropbox",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/dropbox.8.4.21.svg"
+    }, {"name": "Microsoft Build Tools",
+      "link": "microsoft-build-tools",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/microsoft-build-tools.14.0.25420.1.png"
+    }, {"name": "Go programming language ",
+      "link": "golang",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/golang.1.7.1.png"
+    }, {"name": "Python",
+      "link": "python",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/python.3.5.1.svg"
+    }, {"name": "TeamViewer",
+      "link": "teamviewer",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/teamviewer.11.0.66595.png"
+    }, {"name": "Classic Shell",
+      "link": "classic-shell",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/classic-shell.4.2.5.20160521.png"
+    }, {"name": "MySQL Workbench",
+      "link": "mysql.workbench",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mysql.workbench.6.3.7.png"
+    }, {"name": "Quicktime",
+      "link": "quicktime",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Quicktime.7.7.9.png"
+    }, {"name": "Wireshark",
+      "link": "wireshark",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/wireshark.2.2.0.png"
+    }, {"name": "Paint.NET",
+      "link": "paint.net",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "immaging",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/paint.net.4.0.6.png"
+    }, {"name": "Wget",
+      "link": "wget",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Wget.1.17.0.0.png"
+    }, {"name": "Chromium",
+      "link": "chromium",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "browser",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/chromium.55.0.2873.0.svg"
+    }, {"name": "WinSCP",
+      "link": "winscp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "files",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/winscp.5.9.1.png"
+    }, {"name": "Dot Net 3.5",
+      "link": "dotnet3.5",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/DotNet3.5.3.5.20160716.png"
+    }, {"name": "GIMP",
+      "link": "gimp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "immaging",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/gimp.2.8.18.svg"
+    }, {"name": "Python 2.x",
+      "link": "python2",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/python2.2.7.11.svg"
+    }, {"name": "Sublime Text 3",
+      "link": "sublimetext3",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/SublimeText3.3.0.0.3114.png"
+    }, {"name": "iTunes",
+      "link": "itunes",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/iTunes.12.5.1.png"
+    }, {"name": "Youtube Downloader",
+      "link": "youtube-dl",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/youtube-dl.2016.09.24.svg"
+    }, {"name": "Fiddler",
+      "link": "fiddler",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/fiddler.2.4.9.9.svg"
+    }, {"name": "WinDirStat",
+      "link": "windirstat",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/windirstat.1.1.2.20160811.svg"
+    }, {"name": "PHP",
+      "link": "php",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/php.7.0.9.svg"
+    }, {"name": "CDBurnerXP",
+      "link": "cdburnerxp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/cdburnerxp.4.5.7.6282.png"
+    }, {"name": "Foxit Reader",
+      "link": "foxitreader",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "text",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/FoxitReader.8.0.2.80501.png"
+    }, {"name": "CutePDF",
+      "link": "cutepdf",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "text",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/CutePDF.3.0.png"
+    }, {"name": "Vagrant",
+      "link": "vagrant",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/vagrant.1.8.5.png"
+    }, {"name": "Opera",
+      "link": "opera",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "browser",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Opera.39.0.2256.48.svg"
+    }, {"name": "PhantomJS",
+      "link": "phantomjs",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/PhantomJS.2.1.1.png"
+    }, {"name": "Pester",
+      "link": "pester",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "framework",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/pester.3.4.3.png"
+    }, {"name": "Greenshot",
+      "link": "greenshot",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/greenshot.1.2.8.12.png"
+    }, {"name": "Google Drive",
+      "link": "googledrive",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/googledrive.1.31.2873.2758.svg"
+    }, {"name": "WinMerge",
+      "link": "winmerge",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/winmerge.2.14.0.png"
+    }, {"name": "IrfanView",
+      "link": "irfanview",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "immaging",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/IrfanView.4.42.0.20160616.png"
+    }, {"name": "Cmder",
+      "link": "cmder",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Cmder.1.3.0.png"
+    }, {"name": "Defraggler",
+      "link": "defraggler",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/defraggler.2.21.993.png"
+    }, {"name": "Evernote",
+      "link": "evernote",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "text",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logopackageDefaultIcon-50x50.png"
+    }, {"name": "Tor Browser Bundle",
+      "link": "tor-browser",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "browser",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/tor-browser.6.0.5.png"
+    }, {"name": "GitHub Desktop",
+      "link": "github",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/GitHub.3.2.0.0.png"
+    }, {"name": "KeePassHttp",
+      "link": "keepass-keepasshttp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/keepass-keepasshttp.1.8.4.1.png"
+    }, {"name": "Android SDK",
+      "link": "android-sdk",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/android-sdk.24.4.1.2.svg"
+    }, {"name": "Visual Studio Code",
+      "link": "visualstudiocode",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/VisualStudioCode.1.5.3.png"
+    }, {"name": "qBittorrent",
+      "link": "qbittorrent",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/qbittorrent.3.3.6.png"
+    }, {"name": "TreeSize Free",
+      "link": "treesizefree",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/treesizefree.3.4.5.png"
+    }, {"name": "ImageMagick",
+      "link": "imagemagick.app",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "immaging",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/imagemagick.app.7.0.2.5.png"
+    }, {"name": "Process Monitor",
+      "link": "procmon",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/procmon.3.20.png"
+    }, {"name": "Virtual CloneDrive ",
+      "link": "virtualclonedrive",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/VirtualCloneDrive.5.5.0.20160317.svg"
+    }, {"name": "MySQL",
+      "link": "mysql",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mysql.5.7.15.svg"
+    }, {"name": "ConsoleZ",
+      "link": "consolez",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ConsoleZ.1.17.1.16266.png"
+    }, {"name": "Steam",
+      "link": "steam",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/steam.1.0.0.5.png"
+    }, {"name": "Spotify",
+      "link": "spotify",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/spotify.1.0.33.106.png"
+    }, {"name": "PDF24 Creator",
+      "link": "pdf24",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "text",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/pdf24.7.9.0.20160712.png"
+    }, {"name": "Google Earth",
+      "link": "googleearth",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/googleearth.7.1.5.1557.png"
+    }, {"name": "Sumatra PDF",
+      "link": "sumatrapdf",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "text",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/sumatrapdf.3.1.2.png"
+    }, {"name": "Dot Net 4.5.2",
+      "link": "dotnet4.5.2",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/DotNet4.5.2.4.5.2.20140902.png"
+    }, {"name": "Sublime Text 2",
+      "link": "sublimetext2",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/sublimetext2.2.0.2.2221.png"
+    }, {"name": "CPU-Z",
+      "link": "cpu-z",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/cpu-z.1.77.20160914.png"
+    }, {"name": "KDiff3",
+      "link": "kdiff3",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/kdiff3.0.9.98.png"
+    }, {"name": "Inkscape",
+      "link": "inkscape",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "immaging",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/InkScape.0.91.svg"
+    }, {"name": "Speccy",
+      "link": "speccy",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/speccy.1.29.714.png"
+    }, {"name": "FFmpeg",
+      "link": "ffmpeg",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ffmpeg.3.0.1.svg"
+    }, {"name": "f.lux",
+      "link": " f.lux",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/f.lux.3.10.20160828.png"
+    }, {"name": "AdwCleaner",
+      "link": "adwcleaner",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/adwcleaner.6.000.png"
+    }, {"name": "Combined Community Codec Pack",
+      "link": "cccp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/cccp.2015.10.18.png"
+    }, {"name": "Pidgin",
+      "link": "pidgin",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/pidgin.2.11.0.1.png"
+    }, {"name": "JetBrains ReSharper Ultimate ",
+      "link": "resharper-platform",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/resharper-platform.106.0.20160913.100041.png"
+    }, {"name": "AWS Command Line Interface ",
+      "link": "awscli",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/awscli.1.10.38.png"
+    }, {"name": "MongoDB",
+      "link": "mongodb",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mongodb.3.2.9.png"
+    }, {"name": "Unchecky",
+      "link": "unchecky",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/unchecky.1.0.1.png"
+    }, {"name": "Kaspersky Virus Removal Tool ",
+      "link": "kvrt",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/kvrt.2016.08.18.0459.png"
+    }, {"name": "CrystalDiskInfo",
+      "link": "crystaldiskinfo",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/crystaldiskinfo.7.0.3.1.png"
+    }, {"name": "FileBot",
+      "link": "filebot",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/filebot.4.7.2.png"
+    }, {"name": "Brackets",
+      "link": "brackets",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Brackets.1.7.svg"
+    }, {"name": "MPC-HC",
+      "link": "mpc-hc",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mpc-hc.1.7.10.png"
+    }, {"name": "1Password",
+      "link": "1password",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/1password.4.6.0.603.png"
+    }, {"name": "ImgBurn",
+      "link": "imgburn",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/imgburn.2.5.8.00.png"
+    }, {"name": "TightVNC",
+      "link": "tightvnc",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/tightvnc.2.7.10.20140503.png"
+    }, {"name": "Mp3tag",
+      "link": "mp3tag",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mp3tag.2.78.png"
+    }, {"name": "Internet Explorer 11",
+      "link": "ie11",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "browser",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ie11.0.2.svg"
+    }, {"name": "YUMI",
+      "link": "yumi",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/yumi.2.0.2.7.png"
+    }, {"name": "Emacs",
+      "link": "emacs",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Emacs.24.5.0.20150611.png"
+    }, {"name": "Blender",
+      "link": "blender",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "immaging",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/blender.2.77.1.svg"
+    }, {"name": "HandBrake Video Converter",
+      "link": "handbrake.install",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/handbrake.install.0.10.5.20160304.png"
+    }, {"name": "Eclipse Java IDE",
+      "link": "eclipse",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/eclipse.4.5.1.png"
+    }, {"name": "ComboFix Anti-Malware",
+      "link": "combofix",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/combofix.16.8.3.1.png"
+    }, {"name": "CCEnhancer for CCleaner",
+      "link": "ccenhancer",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ccenhancer.4.4.1.png"
+    }, {"name": "K-Lite Codec Pack Full",
+      "link": "k-litecodecpackfull",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/k-litecodecpackfull.12.3.0.png"
+    }, {"name": "OptiPNG: Advanced PNG Optimizer",
+      "link": "optipng",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "immaging",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logopackageDefaultIcon-50x50.png"
+    }, {"name": "uTorrent",
+      "link": "utorrent",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/uTorrent.3.4.8.png"
+    }, {"name": "LastPass",
+      "link": "lastpass",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/lastpass.4.1.2.png"
+    }, {"name": "UltraVNC",
+      "link": "ultravnc",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ultravnc.1.2110.0.20160609.png"
+    }, {"name": "Notepad2, Notepad on Steroids",
+      "link": "notepad2-mod",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "text",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/notepad2-mod.4.2.25.98500.png"
+    }, {"name": "XnView",
+      "link": "xnview",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "immaging",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/XnView.2.36.png"
+    }, {"name": "The R Project for Statistical Computing",
+      "link": "r.project",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/R.Project.3.2.1.png"
+    }, {"name": "AutoIT Macro Scripts",
+      "link": "autoit",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/autoit.3.3.14.2.png"
+    }, {"name": "OpenVPN Community",
+      "link": "openvpn",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/openvpn.2.3.11.png"
+    }, {"name": "OpenOffice",
+      "link": "openoffice",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "text",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/OpenOffice.4.1.2.svg"
+    }, {"name": "PeaZip",
+      "link": "peazip",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/peazip.6.0.3.svg"
+    }, {"name": "AIMP",
+      "link": "aimp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/aimp.4.10.1831.png"
+    }, {"name": "TrueCrypt",
+      "link": "truecrypt",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/truecrypt.7.1.20150620.png"
+    }, {"name": "Recuva File Undeleter",
+      "link": "recuva",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Recuva.1.53.1087.png"
+    }, {"name": "Windows Repair - Fix Common Problems",
+      "link": "windowsrepair",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/windowsrepair.3.9.9.png"
+    }, {"name": "Ditto Better ClipBoard",
+      "link": "ditto",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ditto.3.21.50.0.png"
+    }, {"name": "Unity Web Player",
+      "link": "unitywebplayer",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/unitywebplayer.4.6.0.png"
+    }, {"name": "SmartFTP",
+      "link": "smartftp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "files",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/smartftp.8.0.2248.0.svg"
+    }, {"name": "Deluge BitTorrent",
+      "link": "deluge",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/deluge.1.3.13.svg"
+    }, {"name": "ShareX Screenshot",
+      "link": "sharex",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/sharex.11.2.1.png"
+    }, {"name": "Junkware Removal Tool",
+      "link": "jrt",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/jrt.8.0.7.png"
+    }, {"name": "Slack for Windows",
+      "link": "slack",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/slack.1.0.0.png"
+    }, {"name": "Android Studio",
+      "link": "androidstudio",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/AndroidStudio.2.1.3.0.png"
+    }, {"name": "Rufus",
+      "link": "rufus.install",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/rufus.install.2.9.png"
+    }, {"name": "MakeMKV Video Converter",
+      "link": "makemkv",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/MakeMKV.1.10.0.png"
+    }, {"name": "P4Merge",
+      "link": "p4merge",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/P4Merge.2015.2.png"
+    }, {"name": "AVG AntiVirus Free Edition ",
+      "link": "avgantivirusfree",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/avgantivirusfree.15.0.6140.png"
+    }, {"name": "Directory Monitor",
+      "link": "directorymonitor",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/directorymonitor.2.10.7.6.png"
+    }, {"name": "Spybot Anti Spyware",
+      "link": "spybot",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/spybot.2.4.40.20160327.png"
+    }, {"name": "Cyberduck",
+      "link": "cyberduck",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/cyberduck.5.0.11.20753.png"
+    }, {"name": "GoodSync",
+      "link": "goodsync",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/GoodSync.9.9.54.png"
+    }, {"name": "SQLite Shell",
+      "link": "sqlite.shell",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/sqlite.shell.3.10.1.svg"
+    }, {"name": "Genymotion",
+      "link": "genymotion",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/genymotion.2.6.0.svg"
+    }, {"name": "Popcorn Time",
+      "link": "popcorntime",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/popcorntime.0.3.7.2.png"
+    }, {"name": "PostgreSQL",
+      "link": "postgresql",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/postgresql.9.2.1.png"
+    }, {"name": "Elasticsearch",
+      "link": "elasticsearch",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/elasticsearch.2.3.1.png"
+    }, {"name": "Meld",
+      "link": "meld",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/meld.3.16.2.png"
+    }, {"name": "redis",
+      "link": "redis",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/redis.2.4.6.1.png"
+    }, {"name": "Driver Booster",
+      "link": "driverbooster",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/driverbooster.2.0.3.690.png"
+    }, {"name": "Telegram",
+      "link": "telegram.install",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/telegram.install.0.10.1.png"
+    }, {"name": "Graphviz - Graph Visualization Software",
+      "link": "graphviz",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Graphviz.2.38.0.1.png"
+    }, {"name": "Unity",
+      "link": "unity",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/unity.5.4.0.png"
+    }, {"name": "PyCharm",
+      "link": "pycharm-community",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/PyCharm-community.2016.2.2.png"
+    }, {"name": "PowerISO",
+      "link": "poweriso",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/poweriso.6.1.png"
+    }, {"name": "Kodi Media Player",
+      "link": "kodi",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/kodi.16.1.svg"
+    }, {"name": "TimberWinR",
+      "link": "timberwinr",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/TimberWinR.1.4.17.0.png"
+    }, {"name": "Synergy: Share Mouse and Keyboard",
+      "link": "synergy",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/synergy.1.7.5.png"
+    }, {"name": "Revo Uninstaller",
+      "link": "revo.uninstaller",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Revo.Uninstaller.2.0.0.png"
+    }, {"name": "SUPERAntiSpyware",
+      "link": "superantispyware",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/superantispyware.6.0.1204.png"
+    }, {"name": "Apache Tomcat",
+      "link": "tomcat",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Tomcat.8.0.33.png"
+    }, {"name": "Mumble",
+      "link": "mumble",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mumble.1.2.17.svg"
+    }, {"name": "AWS Tools for Windows PowerShell",
+      "link": "awstools.powershell",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/AWSTools.Powershell.1.1.1120.20130916.png"
+    }, {"name": "Twitch Live Stream",
+      "link": "livestreamer-twitch-gui",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/livestreamer-twitch-gui.0.15.2.png"
+    }, {"name": "Dolphin Emulator GameCube/Wii",
+      "link": "dolphin",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/dolphin.4.0.9204.png"
+    }, {"name": "RoundhousE",
+      "link": "roundhouse",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/roundhouse.0.8.6.png"
+    }, {"name": "TeamSpeak 3",
+      "link": "teamspeak",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logopackageDefaultIcon-50x50.png"
+    }, {"name": "HexChat IRC client",
+      "link": "hexchat",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/hexchat.2.12.1.2.svg"
+    }, {"name": "Screenpresso Screen Recorder HD",
+      "link": "screenpresso",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/screenpresso.1.6.4.png"
+    }, {"name": "HipChat Client",
+      "link": "hipchat",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/HipChat.4.27.1.1658.png"
+    }, {"name": "R.Studio",
+      "link": "r.studio",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logopackageDefaultIcon-50x50.png"
+    }, {"name": "ClamWin AntiVirus",
+      "link": "clamwin",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/clamwin.0.99.1.png"
+    }, {"name": "Cyberfox Browser Firefox Based",
+      "link": "cyberfox",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "browser",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/cyberfox.49.0.png"
+    }, {"name": "Mouse Without Borders",
+      "link": "mousewithoutborders",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mousewithoutborders.2.1.5.png"
+    }, {"name": "BleachBit Cleaner",
+      "link": "bleachbit",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/bleachbit.1.12.png"
+    }, {"name": "EthanBrown.ConEmuConfig ",
+      "link": "ethanbrown.conemuconfig",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/EthanBrown.ConEmuConfig.0.0.5.png"
+    }, {"name": "HeidiSQL",
+      "link": "heidisql",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/HeidiSQL.9.3.0.4984.png"
+    }, {"name": "Kindle for PC",
+      "link": "kindle",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Kindle.1.15.43061.png"
+    }, {"name": "GnuCash",
+      "link": "gnucash",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/gnucash.2.6.13.svg"
+    }, {"name": "Clipgrab Video Downloader/Converter",
+      "link": "clipgrab",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/clipgrab.3.5.6.png"
+    }, {"name": "UltraDefrag",
+      "link": "ultradefrag",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ultradefrag.6.1.1.png"
+    }, {"name": "SpeedFan",
+      "link": "speedfan",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/speedfan.4.52.png"
+    }, {"name": "Maxthon Cloud Browser",
+      "link": "maxthon",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "browser",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/maxthon.4.9.3.1000.png"
+    }, {"name": "UNetbootin",
+      "link": "unetbootin",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/unetbootin.6.2.5.png"
+    }, {"name": "Android Debug Bridge (ADB)",
+      "link": "adb",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/adb.1.0.32.230.png"
+    }, {"name": "JDownloader",
+      "link": "jdownloader",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/jdownloader.0.9.581.png"
+    }, {"name": "Process Hacker",
+      "link": "processhacker",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/processhacker.2.39.png"
+    }, {"name": "FastStone Image Viewer",
+      "link": "fsviewer",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logopackageDefaultIcon-50x50.png"
+    }, {"name": "MusicBee",
+      "link": "musicbee",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/musicbee.3.0.5995.png"
+    }, {"name": "CrystalDiskMark Disc Benchmark",
+      "link": "crystaldiskmark",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/crystaldiskmark.5.1.2.20160617.png"
+    }, {"name": "Rainmeter Apps",
+      "link": "rainmeter",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/rainmeter.3.3.2.2609001.png"
+    }, {"name": "SQLite Analyzer",
+      "link": "sqlite.analyzer",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/sqlite.analyzer.3.10.1.svg"
+    }, {"name": "HTTrack Website Copier",
+      "link": "httrack.app",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logopackageDefaultIcon-50x50.png"
+    }, {"name": "BuildMaster Agent",
+      "link": "buildmaster.agent.tcp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/buildmaster.agent.tcp.5.3.6.png"
+    }, {"name": "Andy Android Emulator",
+      "link": "andy",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/andy.0.46.2.25.png"
+    }, {"name": "Google Chrome Canary Web Browser",
+      "link": "googlechrome.canary",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "browser",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/GoogleChrome.Canary.28.0.1461.0.png"
+    }, {"name": "Image Resizer for Windows ",
+      "link": "imageresizerapp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/imageresizerapp.3.0.4802.png"
+    }, {"name": "aTube Catcher",
+      "link": "atubecatcher",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/atubecatcher.3.8.7986.png"
+    }, {"name": "NetBalancer",
+      "link": "netbalancer",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/netbalancer.9.5.2.png"
+    }, {"name": "Mediamonkey",
+      "link": "mediamonkey",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mediamonkey.4.1.13.20160816.png"
+    }, {"name": "Arduino IDE",
+      "link": "arduino",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/arduino.1.6.7.png"
+    }, {"name": "Battle.net",
+      "link": "battle.net",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/battle.net.1.0.png"
+    }, {"name": "Leiningen - Clojure Project Automation",
+      "link": "lein",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Lein.2.2.0.png"
+    }, {"name": "Code::Blocks",
+      "link": "codeblocks",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/codeblocks.16.01.png"
+    }, {"name": "nginx",
+      "link": "nginx",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/nginx.1.10.1.png"
+    }, {"name": "CrashPlan MultiBackup",
+      "link": "crashplan",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/CrashPlan.4.7.0.png"
+    }, {"name": "Internet Explorer 9",
+      "link": "ie9",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "browser",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ie9.0.0.6.svg"
+    }, {"name": "SuperBenchmarker HTTP and APIS",
+      "link": "superbenchmarker",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logopackageDefaultIcon-50x50.png"
+    }, {"name": "HWMonitor PC Systems",
+      "link": "hwmonitor",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/hwmonitor.1.29.png"
+    }, {"name": "Office 365 Pro Plus ",
+      "link": "office365proplus",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "editor",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Office365ProPlus.2016.20160828.png"
+    }, {"name": "Trillian",
+      "link": "trillian",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/trillian.5.6.0.5.png"
+    }, {"name": "360 Total Security",
+      "link": "360ts",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/360ts.5.2.0.1074.png"
+    }, {"name": "Lua For Windows",
+      "link": "lua",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Lua.5.1.4.5000.png"
+    }, {"name": "Clementine Music Player",
+      "link": "clementine",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/clementine.1.3.1.svg"
+    }, {"name": "Devbox RapidEE ",
+      "link": "devbox-rapidee",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Devbox-RapidEE.0.0.0.20141226.png"
+    }, {"name": "MiniTool Partition Wizard Home Edition",
+      "link": "partitionwizard",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/partitionwizard.9.1.0.png"
+    }, {"name": "Memcached",
+      "link": "memcached",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "server",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/memcached.1.4.4.png"
+    }, {"name": "TypeScript",
+      "link": "typescript",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/typescript.1.6.0.png"
+    }, {"name": "QTTabBar Windows Explorer Tabs Plus",
+      "link": "qttabbar",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/QTTabBar.1038.0.png"
+    }, {"name": "Open Hardware Monitor",
+      "link": "openhardwaremonitor",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/OpenHardwareMonitor.0.7.1.png"
+    }, {"name": "Bulk Rename Utility",
+      "link": "bulkrenameutility.install",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/bulkrenameutility.install.3.0.0.1.png"
+    }, {"name": "Microsoft Office 365 Home Premium Retail",
+      "link": "office365homepremium",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "editor",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Office365HomePremium.2016.20160728.png"
+    }, {"name": "Stellarium Planetarium",
+      "link": "stellarium",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/stellarium.0.15.0.svg"
+    }, {"name": "Driver Genius",
+      "link": "drivergenius",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/drivergenius.16.0.0.245.png"
+    }, {"name": "PotPlayer",
+      "link": "potplayer",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/potplayer.1.6.62949.png"
+    }, {"name": "Disable Windows Update Auto-Restart",
+      "link": "windowsupdate.disableautorestart",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/WindowsUpdate.DisableAutoRestart.0.0.1.png"
+    }, {"name": "Angry IP Scanner",
+      "link": "angryip",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/angryip.3.4.2.png"
+    }, {"name": "Viber",
+      "link": "viber",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/viber.6.0.5.1518.png"
+    }, {"name": "Plex Media Server",
+      "link": "plexmediaserver",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/plexmediaserver.1.0.3.246101.png"
+    }, {"name": "Minecraft",
+      "link": "minecraft",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/minecraft.1.9.png"
+    }, {"name": "FastCopy Windows Copy/Delete Faster",
+      "link": "fastcopy",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/FastCopy.3.13.png"
+    }, {"name": "WizMouse - Mouse Wheel across windows",
+      "link": "wizmouse",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/wizmouse.1.7.0.3.png"
+    }, {"name": "AVG Internet Security",
+      "link": "avginternetsecurity",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/avginternetsecurity.15.0.6125.png"
+    }, {"name": "UltraMon",
+      "link": "ultramon",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ultramon.3.3.0.png"
+    }, {"name": "MariaDB",
+      "link": "mariadb",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "server",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mariadb.10.1.15.svg"
+    }, {"name": "Reaper Digital Audio Workstation",
+      "link": "reaper",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/reaper.5.211.png"
+    }, {"name": "UltraISO",
+      "link": "ultraiso",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ultraiso.9.6.5.3238.png"
+    }, {"name": "The Anki Flashcard Program",
+      "link": "anki",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/anki.2.0.36.png"
+    }, {"name": "Sweet Home 3D Interior Design",
+      "link": "sweet-home-3d",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/sweet-home-3d.5.2.png"
+    }, {"name": "System Ninja Optimization Platform",
+      "link": "systemninja",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/systemninja.3.1.4.png"
+    }, {"name": "Listary: Better Windows Search",
+      "link": "listary",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Listary.5.00.2334.png"
+    }, {"name": "Revo Uninstaller Pro ",
+      "link": "revouninstallerpro",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/revouninstallerpro.3.1.1.20141201.png"
+    }, {"name": "Kaspersky Anti-Virus",
+      "link": "kav",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/kav.15.0.2.361.png"
+    }, {"name": "mIRC",
+      "link": "mirc",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mirc.7.46.png"
+    }, {"name": "Ares Galaxy",
+      "link": "ares",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/ares.2.4.2.png"
+    }, {"name": "HD Tune Benchmark",
+      "link": "hdtune",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/hdtune.2.55.0.1.png"
+    }, {"name": "Kaspersky Internet Security ",
+      "link": "kis",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "security",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/kis.17.0.0.611.png"
+    }, {"name": "Haroopad Blogger Helper",
+      "link": "haroopad",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/haroopad.0.13.1.png"
+    }, {"name": "Toggl Time Tracker",
+      "link": "toggl",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/toggl.7.3.318.png"
+    }, {"name": "Powershell Tools for Visual Studio 2015",
+      "link": "poshtools-visualstudio2015",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/poshtools-visualstudio2015.3.0.299.png"
+    }, {"name": "TaskCoach ToDo List Manager",
+      "link": "taskcoach",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/TaskCoach.1.4.3.png"
+    }, {"name": "MSI Afterburner Graphics Card Utility",
+      "link": "msiafterburner",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/msiafterburner.4.2.0.1.png"
+    }, {"name": "Freeciv Empire Game",
+      "link": "freeciv",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/freeciv.2.5.5.png"
+    }, {"name": "FlightGear Flight Simulator",
+      "link": "flightgear",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/flightgear.3.4.0.png"
+    }, {"name": "RegScanner",
+      "link": "regscanner",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/RegScanner.2.17.png"
+    }, {"name": "Fraps",
+      "link": "fraps",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/fraps.3.5.99.20150108.png"
+    }, {"name": "Screen To Gif",
+      "link": "screentogif",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/screentogif.2.2.160907.png"
+    }, {"name": "PNGGauntlet",
+      "link": "pnggauntlet",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/PngGauntlet.3.1.2.2.png"
+    }, {"name": "VMware Workstation",
+      "link": "vmwareworkstation",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/vmwareworkstation.12.5.0.png"
+    }, {"name": "Little Registry Cleaner ",
+      "link": "littleregistrycleaner",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "cleaner",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/littleregistrycleaner.1.6.0.20141201.png"
+    }, {"name": "Media Player Classic BE",
+      "link": "mpc-be",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "media",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/mpc-be.1.4.6.20160825.png"
+    }, {"name": "Bluefish",
+      "link": "bluefish",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/bluefish.2.2.9.svg"
+    }, {"name": "DU Meter Network Monitor",
+      "link": "dumeter",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/dumeter.6.40.20141201.png"
+    }, {"name": "eMule",
+      "link": "emule",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/emule.0.50.01.png"
+    }, {"name": "CloudBerry Explorer for Amazon S3",
+      "link": "cloudberryexplorer.s3",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/CloudBerryExplorer.S3.4.0.2.31.png"
+    }, {"name": "Discord",
+      "link": "discord",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/discord.0.0.283.png"
+    }, {"name": "Prince HTML to PDF",
+      "link": "prince",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/Prince.10.0.png"
+    }, {"name": "RSSOwl",
+      "link": "rssowl",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/RSSOwl.2.2.1.20160620.png"
+    }, {"name": "AIDA64 Extreme",
+      "link": "aida64-extreme",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "admin",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/aida64-extreme.5.75.3900.png"
+    }, {"name": "join.me",
+      "link": "join.me",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/join.me.2.15.5.302500.png"
+    }, {"name": "Instant Eye Dropper HTML Color",
+      "link": "instanteyedropper",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/instanteyedropper.1.75.png"
+    }, {"name": "Heroes of Newerth",
+      "link": "heroesofnewerth",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/heroesofnewerth.3.5.8.png"
+    }, {"name": "WhatsApp",
+      "link": "whatsapp",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/WhatsApp.0.2.1880.png"
+    }, {"name": "HydraIRC",
+      "link": "hydrairc",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/hydrairc.0.3.165.1.png"
+    }, {"name": "GOG Galaxy",
+      "link": "goggalaxy",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/goggalaxy.1.1.9.56.png"
+    }, {"name": "Razer Cortex: Game Booster ",
+      "link": "gamebooster",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/gamebooster.5.1.38.0.png"
+    }, {"name": "RaidCall",
+      "link": "raidcall",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "communication",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logopackageDefaultIcon-50x50.png"
+    }, {"name": "Volume² Control Windows Audio Better",
+      "link": "volume2",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/volume2.1.1.4.347.png"
+    }, {"name": "Logitech Gaming Software",
+      "link": "logitechgaming",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/logitechgaming.8.83.85.png"
+    }, {"name": "DOSBox Game Launcher",
+      "link": "dbgl",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "gamming",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/dbgl.0.80.png"
+    }, {"name": "NVDA Screen Reader",
+      "link": "nvda",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/nvda.2014.4.png"
+    }, {"name": "Apache HTTP Server Latest",
+      "link": "apache-httpd",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "server",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/apache-httpd.2.4.20.20160427.png"
+    }, {"name": "TinyTask Macro Task Recorder-Playback",
+      "link": "tinytask",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/tinytask.1.50.20141130.png"
+    }, {"name": "Honeyview",
+      "link": "honeyview.install",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "utility",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/honeyview.install.5.18.png"
+    }, {"name": "JSONedit",
+      "link": "jsonedit",
+      "description": "",
+      "origin": "Chocolatey",
+      "category": "developer",
+      "keywords": [
+      ],
+      "profiles": [
+      ],
+      "image": "img/logo/jsonedit.0.9.19.png"
+    }
+  ]
+}
+

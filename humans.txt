@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# Author
+    Pedro Ferrari @thepedroferrari
+
+# THANKS
+    Chocolatey Team
+    
+
+# TECHNOLOGY
+    HTML5 Boilerplate
+    CSS3, HTML5, JavaScript, jQuery, ECMA6
+    Isotope
+    Download.js @ http://danml.com/download.html
+    Göran Andersson @ http://jsfiddle.net/Guffa/Askwb/
+    Gyannd - http://stackoverflow.com/questions/9922498/calculate-time-difference-in-windows-batch-file

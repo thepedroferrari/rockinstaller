@@ -1,0 +1,310 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rock 1-click Installer: Automation in less than 1KB</title>
+    <meta name="description" content="Easily select and install softwares on your windows machine without the hassle of going into every website to get them.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#f4f5f6">
+    <meta name="author" content="Pedro Ferrari">
+    <meta property="og:description" content="Easily select and install softwares on your windows machine without the hassle of going into every website to get them.">
+        <meta property="og:image" content="">
+    <meta property="og:locale" content="en">
+    <meta property="og:site_name" content="Rock 1-click Installer: Setup your machine in Seconds">
+    <meta property="og:title" content="Rock 1-click Installer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://rockinstaller.com">
+    <meta property="article:published_time" content="2016-10-01T01:00:00Z">
+    <meta property="article:author" content="Pedro Ferrari">
+    <meta property="article:section" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" content="Rock 1-click Installer">
+    <meta name="twitter:url" content="http://rockinstaller.com">
+    <meta name="twitter:site" content="http://rockinstaller.com">
+    <meta name="twitter:creator" content="thepedroferrari">
+    <meta name="twitter:title" content="Rock 1-click Installer">
+    <meta name="twitter:description" content="Easily select and install softwares on your windows machine without the hassle of going into every website to get them.">
+        <meta name="twitter:image:src" content="">
+    <link rel="canonical" href="http://rockinstaller.com">
+        <link rel="image_src" href="http://rockinstaller.com/thumbnail.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" integrity="sha256-t2/7smZfgrST4FS1DT0bs/KotCM74XlcqZN5Vu7xlrw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css" integrity="sha256-GHW2S7IZAQe8+YkyL99LyDj1zdWXSPOG+JZafCtKiSc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/snackbarjs/1.1.0/snackbar.min.css" integrity="sha256-rX/chzDIALwDgcAShfPWTO3BVeCmRalixqn14d4hbTI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/css/bootstrap-select.min.css" integrity="sha256-6pWNO2Viaad+qrj8CQ4U9iYrylSPRgLOzaHGtCba1f4=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/skins/square/yellow.css" integrity="sha256-OlHLOcM6TJFk/3mQe540Ir2nZyYr4TpGUkJNEIATktM=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/2.5.2/metisMenu.min.css" integrity="sha256-XjZ0z1dEt5rG6mqMEhy+ssUiX+83tigMsRhQX1nqvKs=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha256-AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+</head>
+<body>	
+    <nav class="main-header">
+				<a href="" class="logo">
+		            <!-- logo for regular state and mobile devices -->
+		            <span class="logo-lg"><b>Rock Installer</b></span>
+	       		</a>
+
+				<div class="navbar navbar-fixed-top" role="navigation" id="mainNav">
+					<a href="" class="toggleBtn visible-xs1" role="button" id="menu-toggle">
+		                <span class="sr-only">Toggle navigation</span>
+		            </a>
+
+
+		            <div class="cust-nav">
+		            	<ul class="nav navbar-nav">
+			              
+			              	<!-- About this -->
+			             	<li class="dropdown">
+			               		<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+			                  		<i class="fa fa-info-circle" aria-hidden="true"></i> About
+			                	</a>
+				                <ul class="dropdown-menu">
+                                    <li><a href="#" id="about">About Rock Installer</a></li>
+                                    <li><a href="https://facebook.com/thepedroferrari" target="_blank">Facebook</a></li>
+                                    <li><a href="https://www.linkedin.com/in/thepedroferrari" target="_blank">LinkedIn</a></li>
+                                    <li><a href="#" id="credits">Credits</a></li>
+				                </ul>
+			             	</li>
+
+			             	<!-- Settings-->
+			             	<li class="dropdown">
+			               		<a href="#" class="dropdown-toggle nav-downloader" data-toggle="dropdown" aria-expanded="false">
+			                  		<i class="fa fa-download" aria-hidden="true"></i> Download
+			                	</a>
+				                <ul class="dropdown-menu settings-download">
+				                	<li class="header">
+                                        <h2>Settings</h2>
+                                        <small>Do not change these values if you don't know what you are doing :)</small>
+                                    </li>
+                                    <li>
+                                      <form id="settings" method="GET">
+                                        <fieldset name="select-verbose" role="radiogroup" aria-required="true" tabindex="0" id="selectVerbose">
+                                          <legend>Show feedback messages?</legend>
+                                          <input type="radio" name="verbose" value="" id="verboseNone" aria-describedby="verboseNone"><label for="verboseNone">Minimal</label><br>
+                                          <input type="radio" name="verbose" value=" -r" id="verboseEssential" aria-describedby="verboseEssential" checked><label for="verboseEssential">Essential</label><br>
+                                          <input type="radio" name="verbose" value=" -v" id="verboseEverything" aria-describedby="verboseEverything"><label for="verboseEverything">All</label>
+                                        </fieldset>
+
+                                        <fieldset name="select-dependencies" role="radiogroup" aria-required="true" tabindex="1">
+                                          <legend>Install missing dependencies?</legend>
+                                          <input type="radio" name="dependencies" value=" -i" id="ignore-dependencies" aria-describedby="ignore-dependencies" ><label for="ignore-dependencies">Ignore all dependencies</label><br>
+                                          <input type="radio" name="dependencies" value="" id="standard-dependencies" aria-describedby="standard-dependencies" checked><label for="standard-dependencies">Default dependencies only</label><br>
+                                          <input type="radio" name="dependencies" value=" --force-dependencies" id="all-dependencies" aria-describedby="all-dependencies"><label for="all-dependencies">Install all dependencies</label>
+                                        </fieldset>
+
+                                        <fieldset name="select-extras" tabindex="2">
+                                          <legend>Select extra parameters to your installer</legend>
+                                          <input type="checkbox" class="checkbox"  id="chocolatey" value="chocolatey" checked> <label for="chocolatey">Install <a href="https://chocolatey.org/" target="_blank">Chocolatey</a> <abbr title="required">*</abbr></label><br>
+                                          <input type="checkbox" class="checkbox"  id="x86" value=" --x86"> <label for="x86">Force <a href="https://en.wikipedia.org/wiki/X86-64" target="_blank">x86</a> (32 bit) software</label><br>
+                                          <input type="checkbox" class="checkbox"  id="ignoreChecksum" value=" --ignore-checksum"> <label for="ignoreChecksum">Ignore file <a href="https://en.wikipedia.org/wiki/Checksum" target="_blank">Checksum</a></label><br>
+                                          <input type="checkbox" class="checkbox"  id="preRelease" value=" -pre"> <label for="preRelease">Install Pre-releases and Beta versions availabe</label><br>
+                                          <input type="checkbox" class="checkbox"  id="forceInstall" value=" -f"> <label for="forceInstall">Force installer behaviour</label><br>
+                                          <input type="checkbox" class="checkbox"  id="removeSound" value="remove-sound"> <label for="removeSound">Remove cool installer sound</label><br>
+                                          <input type="checkbox" class="checkbox"  id="removeSignature" value="remove-signature"> <label for="removeSignature">Remove my signature</label><br>
+                                          <input type="checkbox" class="checkbox"  id="removeCredits" value="remove-credits"> <label for="removeCredits">Remove credits</label>
+                                        </fieldset>
+                                      </form>
+                                      <footer class="download">
+                                        <h2>Download your Installer</h2>
+                                        <button id="installer">DOWNLOAD NOW</button>
+                                        <h3>You may also want to download these</h3>
+                                        <button id="uninstaller">UNINSTALLER</button>
+                                        <button id="updater">UPDATER</button>
+                                      </footer>
+                                    </li>
+				                </ul>
+			             	</li>
+			            </ul>
+			        </div>
+	            
+				</div>
+			</nav>
+
+
+		<!-- page wraper -->
+		<div id="wrapper">
+
+
+
+			<!-- sidebar wrapper -->
+			<div id="sidebar-wrapper">
+				<ul class="sidebar-nav">
+	               
+
+					<li class="sidebar-header">Automation in less than 1KB</li>
+			    	<li>
+                        <a href="#item1"><i class="fa fa-search" aria-hidden="true"></i><input type="text" class="quicksearch" placeholder="Instant Search"></a>
+                        
+                    </li>
+					<li class="active">
+						<a href="#" aria-expanded="true"><i class="fa fa-filter" aria-hidden="true"></i> Filter</a>
+						<ul class="submenu">
+							
+                        <li class="filter">
+                            <i class="fa fa-cube" aria-hidden="true"></i>
+                            <select class="selectpicker filters-type">
+                                <option value="" disabled selected>By Category</option>
+                                <option value="*">All Categories</option>
+                                <option value=".admin">Administration</option>
+                                <option value=".browser">Browsers</option>
+                                <option value=".communication">Communication</option>
+                                <option value=".developer">Developers</option>
+                                <option value=".editor">Editors</option>
+                                <option value=".framework">Framework</option>
+                                <option value=".gamming">Gaming</option>
+                                <option value=".immaging">Imaging</option>
+                                <option value=".media">Media</option>
+                                <option value=".security">Security</option>
+                                <option value=".server">Servers</option>
+                                <option value=".text">Text</option>
+                                <option value=".utility">Utility</option>
+                            </select>
+                        </li>
+                        <li class="filter">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <select class="selectpicker filters-usage">
+                                <option value="" disabled selected>By User (soon)</option>
+                                <option value="*" disabled>All Users</option>
+                                <option value="" disabled>Audio Engineer</option>
+                                <option value="" disabled>Basic User</option>
+                                <option value="" disabled>Developer: Android</option>
+                                <option value="" disabled>Developer: Backend</option>
+                                <option value="" disabled>Developer: Frontend</option>
+                                <option value="" disabled>Developer: iOS</option>
+                                <option value="" disabled>Gamer</option>
+                                <option value="" disabled>Sys Admin</option>
+                                <option value="" disabled>Teaching / Studying</option>
+                                <option value="" disabled>UI / UX / Designer</option>
+                            </select>
+                        </li>
+                        <li class="filter">
+                            <i class="fa fa-certificate" aria-hidden="true"></i>
+                            <select class="selectpicker filters-type">
+                                <option value="" disabled selected>By License (soon)</option>
+                                <option value="*" disabled>All Licenses</option>
+                                <option value=".admin" disabled>Free</option>
+                                <option value=".browser" disabled>Freeware</option>
+                                <option value=".communication" disabled>Open Source</option>
+                                <option value=".developer" disabled>Paid</option>
+                            </select>
+                        </li>
+						</ul>
+                    </li>
+                            
+			    
+
+					<!-- Users menu -->
+					<li>
+						<a href="#" aria-expanded="false">
+							<i class="fa fa-users" aria-hidden="true"></i> 
+								User
+							<i class="fa arrow pull-right aria-hidden="true></i>
+						</a>
+						<ul class="submenu">
+							<li><a href=""><i class="fa fa-user-plus"></i><span> My Downloads</span></a></li>
+							<li><a href=""> <i class="fa fa-eye"></i><span> My software lists</span></a></li>
+						</ul>
+					</li><!--End of  Users menu -->
+
+				
+		
+			    	<li><a href="#item1"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+			    	<li><a href="#item1"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Login</a></li>
+
+	                
+           		</ul>
+        	</div><!-- //sidebar wrapper -->
+
+
+        	 <!-- Page Content -->
+	        <div id="page-content-wrapper">       
+	            <div class="container-fluid">
+	                <div class="row">
+                        <div class="col-lg-12">
+	                    	<!--info box -->
+	                        <div class="row">  
+                                <section id="content" class="row">
+                                    <main class="col-sm-12">
+
+                                        <div class="content-header">
+                                            <h1>Simply click on the softwares you want to download and we will generate an updated installer for you.</h1>
+                                        </div>	 
+                                        <ul id="apps" class="grid">
+                                        </ul>
+                                    </main>
+                                    <div class="message"></div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <h2>How about it?</h2>
+            <div id="disqus_thread"></div>
+    </div>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js" integrity="sha256-+h0g0j7qusP72OZaLPCSZ5wjZLnoUUicoxbvrl14WxM=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js" integrity="sha256-cWSYWyH94BcbvGBoKF/NMufzPwol62KyialxAL4X4cc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.2/js/bootstrap-select.min.js" integrity="sha256-NpjFqxNtMOVQfuoDn4f9ZgUe3ua/MTbmkM8kl+mfU70=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js" integrity="sha256-YPxFEfHAzLj9n2T+2UXAKGNCRUINk0BexppujiVhRH0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tipso/1.0.8/tipso.min.js" integrity="sha256-w/zWn0ypYVUv7iMmtGkhx1YfZMtOWy3ar6Yhmbeur08=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/snackbarjs/1.1.0/snackbar.min.js" integrity="sha256-yIGfMkQAq4NiRvtt6ilwQljILYzKZtHxIvhjXvxdWXg=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/icheck.min.js" integrity="sha256-8HGN1EdmKWVH4hU3Zr3FbTHoqsUcfteLZJnVmqD/rC8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/2.5.2/metisMenu.min.js" integrity="sha256-FvtGTJgCbPmWr0DdIsMWeukxoOxWhWTCjT345wTj5Y8=" crossorigin="anonymous"></script>
+    <script src='js/downloader.js'></script>
+    <script src="js/app.js"></script>
+    <script>
+$(document).ready(function(){
+  $('input').iCheck({
+    checkboxClass: 'icheckbox_square-yellow',
+    radioClass: 'iradio_square-yellow',
+    increaseArea: '20%' // optional
+  });
+$('.sidebar-nav').metisMenu();
+$('#sidebar').metisMenu();
+$("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+});
+});
+        
+
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-84937081-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script>
+(function(h,o,t,j,a,r){
+  h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+  h._hjSettings={hjid:298946,hjsv:5};
+  a=o.getElementsByTagName('head')[0];
+  r=o.createElement('script');r.async=1;
+  r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  a.appendChild(r);
+})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<script>
+(function() {
+    var d = document, s = d.createElement('script');
+    s.src = '//rock-installer.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+</body>
+</html>
